@@ -1,0 +1,21 @@
+.about-heading {
+  @media (min-width: 992px) {
+    .about-heading-img {
+      position: relative;
+      z-index: 0;
+    }
+    .about-heading-content {
+      margin-top: -5rem;
+      position: relative;
+      z-index: 1;
+    }
+  }
+}
+
+.a{
+  ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  
+}
